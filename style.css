@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-form{
+    background-color: #594A4A;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    cursor: pointer;
+}
+.card-form:hover{
+    box-shadow: rgba(0, 0, 0, 0.55) 0px 5px 15px;
+}
+.card-image{
+    width: 200px;
+}
+.active {
+    background-color: white;
+}
+h2{
+    font-size: 15px;
+}
